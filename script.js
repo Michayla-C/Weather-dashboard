@@ -48,3 +48,12 @@ api.get('/', (req, res) => {
   console.log(req);
   res.send('Hello, world!');
 });
+
+api.use((req, res, next) => {
+    console.log('Hello');
+   });
+
+   api.use((req, res, next) => {
+    console.log('Hello');
+    next();
+   });
