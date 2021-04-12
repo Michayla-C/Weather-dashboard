@@ -1,0 +1,24 @@
+{
+  "name": "Weather-dashboard",
+  "version": "1.0.0",
+  "description": "AS A traveler\r YOU WANT to see the weather outlook for multiple cities\r SO THAT YOU can plan a trip accordingly",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Michayla-C/Weather-dashboard.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Michayla-C/Weather-dashboard/issues"
+  },
+  "homepage": "https://github.com/Michayla-C/Weather-dashboard#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "save": "^2.4.0"
+  }
+}
