@@ -18,6 +18,33 @@
 <body>
     <header>Weather Dashboard</header>
 
+    <main class="container-fluid">
+        <div class = "row">
+            <div class="col-12 col-md-3 p-2 search-column">
+                <form class = "border p-2" id = "searchCity">
+                    <h4>Search for a City</h2>
+                    <input id="city" type = "text" autofocus = "true" class = "formInput"/>
+                    <button class = "btn btn-primary" type = "submit">Search</button>
+                </form>
+                <div class = "past-search border" id = "pastSearchButtons"></div>
+            </div>
+            <div class="col-12 col-md-9">
+                <div class = "row border selected-city" id = "currentForecast">
+                    <div class = "col-12">
+                        <h2 id="searchedCity"></h2>
+                        <div id = "currentWeatherContainer" class = "listGroup"></div>
+                    </div>  
+                </div>
+                <div class = "row border" id = "fiveDayForecast">
+                        <h2 class= "col-12" id = "forecast"></h2>
+                        <div class = "d-flex" id = "fivedayContainer"></div>
+                </div>  
+            </div>
+        </div>
+    </main>
+
+
+
     <script src="script.js"></script>
 </body>
 </html>
