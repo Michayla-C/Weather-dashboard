@@ -1,11 +1,10 @@
-# Weather-dashboard
+# Weather Dashboard
 
 ## User Story
 
 AS A traveler
 YOU WANT to see the weather outlook for multiple cities
 SO THAT YOU can plan a trip accordingly
-
 
 ## Features
 
