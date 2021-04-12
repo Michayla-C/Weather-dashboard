@@ -57,21 +57,29 @@
         </div>
     </main>
 
+<!-- the DIV that will contain the widget -->
+<div class="weatherWidget" ></div>
 
-    <div class="video-container">
-        <iframe src="http://player.vimeo.com/video/6284199?title=0&byline=0&portrait=0" width="800" height="450" frameborder="0"></iframe>
-    </div>
-    
-
-    <div class="video-wrapper">
-        <div class="video-container">
-            <iframe src="http://player.vimeo.com/video/6284199?title=0&byline=0&portrait=0" width="800" height="450" frameborder="0"></iframe>
-        </div>
-        <!-- /video -->
-        
-    </div>
-    <!-- /video-wrapper -->	
-
+<script>
+   window.weatherWidgetConfig =  window.weatherWidgetConfig || [];
+   window.weatherWidgetConfig.push({
+       selector:".weatherWidget",
+       apiKey:"M3MLNLPS4YAZRAUFENTW395ZX", //Personal API Key
+       location:"Sydney, NSW, Australia", //Location
+       unitGroup:"metric", //Metric units
+       forecastDays:5, //Days forecast show
+       title:"This Weeks Weather", //Title Shown
+       showTitle:true, 
+       showConditions:true
+   });
+  
+   (function() {
+   var d = document, s = d.createElement('script');
+   s.src = 'https://www.visualcrossing.com/widgets/forecast-simple/weather-forecast-widget-simple.js';
+   s.setAttribute('data-timestamp', +new Date());
+   (d.head || d.body).appendChild(s);
+   })();
+</script>
 
 
 
