@@ -1,5 +1,5 @@
-* {
-    margin: 2%;
+body {
+    background-image: url(assets/background.jpg);
 }
 
 header {
@@ -10,4 +10,16 @@ header {
     font-weight: bold;
     font-size: xx-large;
     text-align: center;
+}
+
+#searchCity {
+    padding: 12px 20px;
+    margin-left: 7.5px;
+    background-color: darkcyan;
+    box-sizing: border-box;
+    border-style: solid;
+    border-color: white;
+    color: whitesmoke;
+    width: max-content;
+    border-radius: 4px;
 }
