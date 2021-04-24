@@ -42,6 +42,11 @@ header {
     border-radius: 7px;
 }
 
+#weatherWidget {
+    margin: 7.5px;
+}
+
+
 /*Device Compatability*/
 
 /* Media Queries: Tablet Landscape */
